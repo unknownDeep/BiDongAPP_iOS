@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04943D441D53368900055F9E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04943D431D53368900055F9E /* main.m */; };
+		04943D471D53368900055F9E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04943D461D53368900055F9E /* AppDelegate.m */; };
+		04943D4A1D53368900055F9E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04943D491D53368900055F9E /* ViewController.m */; };
+		04943D4D1D53368900055F9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04943D4B1D53368900055F9E /* Main.storyboard */; };
+		04943D4F1D53368900055F9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04943D4E1D53368900055F9E /* Assets.xcassets */; };
+		04943D521D53368900055F9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04943D501D53368900055F9E /* LaunchScreen.storyboard */; };
+		04943D5D1D53368900055F9E /* BiDongAPPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04943D5C1D53368900055F9E /* BiDongAPPTests.m */; };
+		04943D681D53368900055F9E /* BiDongAPPUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04943D671D53368900055F9E /* BiDongAPPUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04943D591D53368900055F9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04943D371D53368900055F9E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04943D3E1D53368900055F9E;
+			remoteInfo = BiDongAPP;
+		};
+		04943D641D53368900055F9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04943D371D53368900055F9E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04943D3E1D53368900055F9E;
+			remoteInfo = BiDongAPP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04943D3F1D53368900055F9E /* BiDongAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BiDongAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04943D431D53368900055F9E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04943D451D53368900055F9E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04943D461D53368900055F9E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04943D481D53368900055F9E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04943D491D53368900055F9E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04943D4C1D53368900055F9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04943D4E1D53368900055F9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04943D511D53368900055F9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04943D531D53368900055F9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04943D581D53368900055F9E /* BiDongAPPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BiDongAPPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04943D5C1D53368900055F9E /* BiDongAPPTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BiDongAPPTests.m; sourceTree = "<group>"; };
+		04943D5E1D53368900055F9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04943D631D53368900055F9E /* BiDongAPPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BiDongAPPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04943D671D53368900055F9E /* BiDongAPPUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BiDongAPPUITests.m; sourceTree = "<group>"; };
+		04943D691D53368900055F9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04943D3C1D53368900055F9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04943D551D53368900055F9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04943D601D53368900055F9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04943D361D53368900055F9E = {
+			isa = PBXGroup;
+			children = (
+				04943D411D53368900055F9E /* BiDongAPP */,
+				04943D5B1D53368900055F9E /* BiDongAPPTests */,
+				04943D661D53368900055F9E /* BiDongAPPUITests */,
+				04943D401D53368900055F9E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04943D401D53368900055F9E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04943D3F1D53368900055F9E /* BiDongAPP.app */,
+				04943D581D53368900055F9E /* BiDongAPPTests.xctest */,
+				04943D631D53368900055F9E /* BiDongAPPUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04943D411D53368900055F9E /* BiDongAPP */ = {
+			isa = PBXGroup;
+			children = (
+				04943D451D53368900055F9E /* AppDelegate.h */,
+				04943D461D53368900055F9E /* AppDelegate.m */,
+				04943D481D53368900055F9E /* ViewController.h */,
+				04943D491D53368900055F9E /* ViewController.m */,
+				04943D4B1D53368900055F9E /* Main.storyboard */,
+				04943D4E1D53368900055F9E /* Assets.xcassets */,
+				04943D501D53368900055F9E /* LaunchScreen.storyboard */,
+				04943D531D53368900055F9E /* Info.plist */,
+				04943D421D53368900055F9E /* Supporting Files */,
+			);
+			path = BiDongAPP;
+			sourceTree = "<group>";
+		};
+		04943D421D53368900055F9E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04943D431D53368900055F9E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04943D5B1D53368900055F9E /* BiDongAPPTests */ = {
+			isa = PBXGroup;
+			children = (
+				04943D5C1D53368900055F9E /* BiDongAPPTests.m */,
+				04943D5E1D53368900055F9E /* Info.plist */,
+			);
+			path = BiDongAPPTests;
+			sourceTree = "<group>";
+		};
+		04943D661D53368900055F9E /* BiDongAPPUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04943D671D53368900055F9E /* BiDongAPPUITests.m */,
+				04943D691D53368900055F9E /* Info.plist */,
+			);
+			path = BiDongAPPUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04943D3E1D53368900055F9E /* BiDongAPP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04943D6C1D53368900055F9E /* Build configuration list for PBXNativeTarget "BiDongAPP" */;
+			buildPhases = (
+				04943D3B1D53368900055F9E /* Sources */,
+				04943D3C1D53368900055F9E /* Frameworks */,
+				04943D3D1D53368900055F9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BiDongAPP;
+			productName = BiDongAPP;
+			productReference = 04943D3F1D53368900055F9E /* BiDongAPP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04943D571D53368900055F9E /* BiDongAPPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04943D6F1D53368900055F9E /* Build configuration list for PBXNativeTarget "BiDongAPPTests" */;
+			buildPhases = (
+				04943D541D53368900055F9E /* Sources */,
+				04943D551D53368900055F9E /* Frameworks */,
+				04943D561D53368900055F9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04943D5A1D53368900055F9E /* PBXTargetDependency */,
+			);
+			name = BiDongAPPTests;
+			productName = BiDongAPPTests;
+			productReference = 04943D581D53368900055F9E /* BiDongAPPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04943D621D53368900055F9E /* BiDongAPPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04943D721D53368900055F9E /* Build configuration list for PBXNativeTarget "BiDongAPPUITests" */;
+			buildPhases = (
+				04943D5F1D53368900055F9E /* Sources */,
+				04943D601D53368900055F9E /* Frameworks */,
+				04943D611D53368900055F9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04943D651D53368900055F9E /* PBXTargetDependency */,
+			);
+			name = BiDongAPPUITests;
+			productName = BiDongAPPUITests;
+			productReference = 04943D631D53368900055F9E /* BiDongAPPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04943D371D53368900055F9E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = zhanghao;
+				TargetAttributes = {
+					04943D3E1D53368900055F9E = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					04943D571D53368900055F9E = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 04943D3E1D53368900055F9E;
+					};
+					04943D621D53368900055F9E = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 04943D3E1D53368900055F9E;
+					};
+				};
+			};
+			buildConfigurationList = 04943D3A1D53368900055F9E /* Build configuration list for PBXProject "BiDongAPP" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04943D361D53368900055F9E;
+			productRefGroup = 04943D401D53368900055F9E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04943D3E1D53368900055F9E /* BiDongAPP */,
+				04943D571D53368900055F9E /* BiDongAPPTests */,
+				04943D621D53368900055F9E /* BiDongAPPUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04943D3D1D53368900055F9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04943D521D53368900055F9E /* LaunchScreen.storyboard in Resources */,
+				04943D4F1D53368900055F9E /* Assets.xcassets in Resources */,
+				04943D4D1D53368900055F9E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04943D561D53368900055F9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04943D611D53368900055F9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04943D3B1D53368900055F9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04943D4A1D53368900055F9E /* ViewController.m in Sources */,
+				04943D471D53368900055F9E /* AppDelegate.m in Sources */,
+				04943D441D53368900055F9E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04943D541D53368900055F9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04943D5D1D53368900055F9E /* BiDongAPPTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04943D5F1D53368900055F9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04943D681D53368900055F9E /* BiDongAPPUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04943D5A1D53368900055F9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04943D3E1D53368900055F9E /* BiDongAPP */;
+			targetProxy = 04943D591D53368900055F9E /* PBXContainerItemProxy */;
+		};
+		04943D651D53368900055F9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04943D3E1D53368900055F9E /* BiDongAPP */;
+			targetProxy = 04943D641D53368900055F9E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04943D4B1D53368900055F9E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04943D4C1D53368900055F9E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04943D501D53368900055F9E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04943D511D53368900055F9E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04943D6A1D53368900055F9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04943D6B1D53368900055F9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04943D6D1D53368900055F9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BiDongAPP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cc.bidong.BiDongAPP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04943D6E1D53368900055F9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BiDongAPP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cc.bidong.BiDongAPP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		04943D701D53368900055F9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BiDongAPPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cc.bidong.BiDongAPPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BiDongAPP.app/BiDongAPP";
+			};
+			name = Debug;
+		};
+		04943D711D53368900055F9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BiDongAPPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cc.bidong.BiDongAPPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BiDongAPP.app/BiDongAPP";
+			};
+			name = Release;
+		};
+		04943D731D53368900055F9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BiDongAPPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cc.bidong.BiDongAPPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BiDongAPP;
+			};
+			name = Debug;
+		};
+		04943D741D53368900055F9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BiDongAPPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cc.bidong.BiDongAPPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BiDongAPP;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04943D3A1D53368900055F9E /* Build configuration list for PBXProject "BiDongAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04943D6A1D53368900055F9E /* Debug */,
+				04943D6B1D53368900055F9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04943D6C1D53368900055F9E /* Build configuration list for PBXNativeTarget "BiDongAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04943D6D1D53368900055F9E /* Debug */,
+				04943D6E1D53368900055F9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04943D6F1D53368900055F9E /* Build configuration list for PBXNativeTarget "BiDongAPPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04943D701D53368900055F9E /* Debug */,
+				04943D711D53368900055F9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04943D721D53368900055F9E /* Build configuration list for PBXNativeTarget "BiDongAPPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04943D731D53368900055F9E /* Debug */,
+				04943D741D53368900055F9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04943D371D53368900055F9E /* Project object */;
+}
